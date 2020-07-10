@@ -98,17 +98,17 @@ body {
   margin-right: 0;
 }
 
+#teach {
+  max-width: 60%;
+  max-height: 30%;
+  border-radius: 20px;
+}
+
 #burano {
-  max-width: 41%;
+  max-width: 34%;
   max-height: 30%;
   border-radius: 20px;
   margin-right: 3%;
-}
-
-#bc {
-  max-width: 54%;
-  max-height: 30%;
-  border-radius: 20px;
 }
 
 @keyframes bio {
