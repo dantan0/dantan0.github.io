@@ -75,7 +75,7 @@ body {
 #italy {
   margin-left: auto;
   margin-right: 20px;
-  max-width: 30%;
+  max-width: 25%;
   max-height: 20%;
   border-radius: 20px;
   box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
@@ -105,7 +105,7 @@ body {
 }
 
 #burano {
-  max-width: 35%;
+  max-width: 34%;
   max-height: 30%;
   border-radius: 20px;
   margin-right: 3%;
