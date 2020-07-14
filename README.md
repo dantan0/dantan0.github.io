@@ -1,3 +1,3 @@
 # Personal Webpage
 
-The following link directs to my website: www.dantan.me. A professional blog will be up shortly if I find myself some free time. Cheers!
+The following link directs to my website: www.dantan.me. Please feel free to let me know if you have any suggestions. Cheers!
