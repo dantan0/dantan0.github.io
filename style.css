@@ -176,7 +176,7 @@ footer p {
 
 .inline-photo {
   border: 1em solid #fff;
-  border-bottom: 3em solid #fff;
+  border-bottom: 2.5em solid #fff;
   border-radius: .25em;
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   margin: 2em auto;
