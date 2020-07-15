@@ -1,8 +1,9 @@
 h1 {
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 45px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 8vw;
+    font-weight: bold;
     font-family: 'Poiret One', 'Didot';
   }
 
@@ -49,22 +50,25 @@ body {
 }
 
 nav li {
-  border: 1px solid;
-  border-width: 1px 0;
-  margin: 0 4vw;
-  font-size: 3vh;
+  margin: 0vw 5vw;
+  font-size: 3vw;
+  list-style-type: none;
   display: inline;
 }
 
 nav ul {
   font-family: Poiret One;
   text-align: center;
+  overflow: visible;
+  margin: 0px;
+  padding: 0px;
 }
 
-nav a {
+nav li a {
   text-decoration: none;
-  width: 1vw;
   color: black;
+  border: solid;
+  border-width: 3px 0px;
 }
 
 nav a:hover {
