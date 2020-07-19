@@ -79,22 +79,12 @@ nav a:hover {
 .welcome.is-visible {
   font-family: 'Poiret One', 'Didot';
   animation-name: welcome;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
   padding-top: 2%;
 }
 
 @keyframes welcome {
-  from {
-    margin-left: 80%;
-    width: 200%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 200%
-  }
-
   0% {
     opacity: 0;
   }
