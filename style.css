@@ -120,7 +120,7 @@ nav a:hover {
 
 #var {
   margin-top: 10px;
-  max-width: 60%;
+  max-width: 55%;
   max-height: 30%;
   border-radius: 20px;
   margin-right: 3%;
@@ -142,13 +142,13 @@ nav a:hover {
 }
 
 #teach {
-  max-width: 70%;
+  max-width: 65%;
   max-height: 30%;
   border-radius: 20px;
 }
 
 #burano {
-  max-width: 34%;
+  max-width: 35%;
   max-height: 30%;
   border-radius: 20px;
   margin-right: 3%;
@@ -156,7 +156,7 @@ nav a:hover {
 
 #cali {
   max-width: 50%;
-  max-height: 30%;
+  max-height: 40%;
   border-radius: 20px;
 }
 
