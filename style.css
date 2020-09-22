@@ -2,15 +2,14 @@ h1 {
     text-align: center;
     margin-top: 0%;
     padding-top: 2vw;
-    margin-bottom: 4vw;
+    margin-bottom: 4vh;
     font-size: 10vw;
     font-weight: bold;
     font-family: 'Poiret One', 'Didot';
     color: black;
   }
 
-
-h2 {font-family: 'Poiret One', 'Didot'; margin-top: 5%; font-size: 3vw}
+h2 {font-family: 'Poiret One', 'Didot'; font-size: 3vw}
 p {text-align: justify; font-size: 1.8vw; font-family: 'Poiret One', 'Didot';}
 
 div {
