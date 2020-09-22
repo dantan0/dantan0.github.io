@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fondamento&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "style.css" type = "text/css">
   <link rel = "stylesheet" href = "tooltip.css" type = "text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -62,9 +64,8 @@
   <div class = "show-on-scroll" id = "academic">
     <h2> Academic Exchange </h2>
     <p>
-      I am a solo explorer with 21 countries &#9968; on the list currently,
-      many of which took place during my exchange
-      in the UK. At the time, I helped fundraise for a
+      I travelled 13 countries &#9968; during my exchange
+      in the UK. At the time, I also helped fundraise for a
       <a href = " https://emmaus.org.uk/leeds/students-complete-jailbreak-hitch-for-emmaus-leeds/">
         charity</a> by hitchhiking from Leeds to Cologne within 36 hrs. &#9203;
     </p>
@@ -75,19 +76,11 @@
   <div class="skills show-on-scroll" id="tech">
     <h2> Tech Skills </h2>
     <p> Languages:
-      <span class="tooltip"> C++, <span class="tooltiptext">
-      writing data structure programs </span>
-      </span>
-      <span class="tooltip"> C, <span class="tooltiptext"> systems programming
-       and concurrent problems </span>
-      </span>
-      <span class="tooltip"> Python, <span class = "tooltiptext" > AI & machine
-      learning </span>
-      </span>
-      <span class="tooltip"> R, <span class = "tooltiptext"> time-series analysis</span>
-      </span>
-      <span class="tooltip"> MATLAB, <span class = "tooltiptext"> scientific computation </span>
-      </span>
+      <span class = "tooltip"> C++, <span class = "tooltiptext"> writing data structure programs </span></span>
+      <span class = "tooltip"> C <span class = "tooltiptext"> systems programming </span> </span>
+      <span class="tooltip"> Python, <span class = "tooltiptext" > AI & machine learning </span> </span>
+      <span class="tooltip"> R, <span class = "tooltiptext"> time-series analysis</span> </span>
+      <span class="tooltip"> MATLAB, <span class = "tooltiptext"> scientific computation </span> </span>
       <span> HTML, CSS, JavaScript, SQL, Ruby </span>
     </p>
     <p> Frameworks & Libraries: Rails, React, Scikit-learn, Pandas, TensorFlow </p>
@@ -99,12 +92,13 @@
     <h2> Contact Me </h2>
     <p> Email: <a href = "mailto: sjtan@uwaterloo.ca">sjtan@uwaterloo.ca </a></p>
   </div>
-  
-  <script src="show-on-scroll.js"></script>
-</body>
 
-<footer>
-  <p> Copyright @ 2020 Dan Tan </p>
-</footer>
+  <script src="show-on-scroll.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
+</body>
 
 </html>
