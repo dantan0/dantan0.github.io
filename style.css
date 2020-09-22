@@ -72,7 +72,7 @@ nav li a {
   text-decoration: none;
   color: black;
   border: solid;
-  border-width: 3px 0px;
+  border-width: 1px 0px;
 }
 
 nav a:hover {
