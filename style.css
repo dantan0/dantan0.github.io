@@ -2,19 +2,21 @@ h1 {
     text-align: center;
     margin-top: 0%;
     padding-top: 2vw;
-    margin-bottom: 2.5vw;
-    font-size: 8vw;
+    margin-bottom: 4vw;
+    font-size: 10vw;
     font-weight: bold;
     font-family: 'Poiret One', 'Didot';
+    color: black;
   }
 
 
-h2 {font-family: 'Poiret One', 'Didot'; margin-top: 10%; }
-p {text-align: justify; font-size: 20px; font-family: 'Poiret One', 'Didot';}
+h2 {font-family: 'Poiret One', 'Didot'; margin-top: 5%; font-size: 3vw}
+p {text-align: justify; font-size: 1.8vw; font-family: 'Poiret One', 'Didot';}
 
 div {
   margin-left: 20vw;
   margin-right: 20vw;
+  margin-bottom: 10vw;
 }
 
 div {
@@ -29,9 +31,9 @@ div.is-visible {
 
 body {
   animation-iteration-count:1;
-  background: rgb(230,170,170);
-  background: radial-gradient(circle, rgba(210,170,170,1) 25%, rgba(148,210,250,1) 100%);
   margin: 0;
+  background: black;
+  color: white;
 }
 
 .header {
@@ -52,8 +54,8 @@ body {
 }
 
 nav li {
-  margin: 0vw 6.5vw;
-  font-size: 3vw;
+  margin: 0vw 8vw;
+  font-size: 4vw;
   list-style-type: none;
   display: inline;
 }
@@ -62,8 +64,8 @@ nav ul {
   font-family: Poiret One;
   text-align: center;
   overflow: visible;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 nav li a {
